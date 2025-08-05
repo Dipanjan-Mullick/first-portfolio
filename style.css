@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box; 
+    /* When box-sizing: border-box is applied, the specified width and height of an element include its padding and border.  */
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color:#333;
+}
+header{
+    background-color: #333;
+    color:#fff;
+    padding: 1rem 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width:1000px;
+    margin:auto;
+    padding: 0 20px;
+}
+nav h1{
+    font-size: 24px;
+}
+
+nav ul{
+    list-style: none;
+    display:flex;
+    gap: 20px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color :#00bcd4;
+}
