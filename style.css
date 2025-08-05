@@ -19,7 +19,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width:1000px;
+    max-width: 1000px;
     margin:auto;
     padding: 0 20px;
 }
@@ -39,4 +39,23 @@ nav ul li a{
 }
 nav ul li a:hover{
     color :#00bcd4;
+}
+section{
+    max-width: 1000px;
+    margin:auto;
+    padding:40px 20px;
+    background-color: #fff;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.projects{
+    margin-bottom: 20px;
+}
+footer{
+    text-align: center;
+    padding:20px;
+    background-color: #333;
+    color: #fff;
+    margin-top: 40px;
 }
